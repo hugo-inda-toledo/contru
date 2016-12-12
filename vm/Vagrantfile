@@ -1,0 +1,60 @@
+# encoding: utf-8
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+require 'yaml'
+
+current_dir = File.dirname(File.expand_path(__FILE__))
+configs = YAML.load_file("#{current_dir}/config.yaml")
+current_config = configs['configs']['use']
+vagrant_config = configs['configs'][current_config]
+
+Vagrant.configure('2') do |config|
+
+    config.ssh.forward_agent = true
+    config.vm.box = 'ubuntu_14.04'
+    config.vm.box_url = 'https://oss-binaries.phusionpassenger.com/vagrant/boxes/latest/ubuntu-14.04-amd64-vbox.box'
+    config.vm.network 'public_network', ip: vagrant_config['public_ip']
+    config.vm.synced_folder '../dev/', '/var/www/nginx-default'
+
+    # avoid the annoying error "stdin: is not a tty", it's a ubuntu bug
+    config.vm.provision :shell, :inline => 'sed -i "s/^mesg n$/tty -s \\&\\& mesg n/g" /root/.profile'
+
+    config.vm.provision :chef_solo do |chef|
+        chef.cookbooks_path = ['cookbooks']
+        chef.add_recipe 'apt'
+        chef.add_recipe 'nginx'
+        chef.add_recipe 'mysql::server'
+        chef.add_recipe 'php'
+        chef.add_recipe 'php-fpm'
+        chef.add_recipe 'composer'
+        chef.json = {
+            :nginx => {
+                :dir                => '/etc/nginx',
+                :log_dir            => '/var/log/nginx',
+                :binary             => '/usr/sbin/nginx',
+                :user               => 'www-data',
+                :init_style         => 'runit',
+                :pid                => '/var/run/nginx.pid',
+                :worker_connections => '1024',
+                :sendfile           => 'off'
+            },
+            :mysql => {
+                :server_root_password => '',
+                :allow_remote_root    => true
+            }
+        }
+    end
+
+    config.vm.provision :shell, :inline => 'sudo cp /vagrant/files/etc/nginx/sites-enabled/default /etc/nginx/sites-enabled/'
+    config.vm.provision :shell, :inline => 'sudo apt-get -y install php5-imagick'
+    config.vm.provision :shell, :inline => 'sudo apt-get -y install php5-intl'
+    config.vm.provision :shell, :inline => 'sudo apt-get -y install php5-mcrypt'
+    config.vm.provision :shell, :inline => 'sudo apt-get -y install php5-sqlite'
+    config.vm.provision :shell, :inline => 'sudo php5enmod mcrypt'
+    config.vm.provision :shell, :inline => 'sudo apt-get -y install php5-mysql'
+    config.vm.provision :shell, :inline => 'sudo apt-get -y install dos2unix'
+    config.vm.provision :shell, :inline => 'sudo service nginx restart'
+    config.vm.provision :shell, :inline => 'sudo service php5-fpm restart'
+
+end

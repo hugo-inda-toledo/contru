@@ -1,0 +1,1 @@
+ALTER TABLE `remunerations_reports` ADD `tries` INT(11) NOT NULL DEFAULT '0' AFTER `path`, ADD `code_errors` TEXT NULL AFTER `tries`;

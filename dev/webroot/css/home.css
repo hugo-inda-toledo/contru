@@ -1,0 +1,141 @@
+@import url('animate.css');
+/************ Idea Uno 2013 *************/
+/*Rutas*/
+/*mixes css*/
+/*Configuración de animaciones y efectos*/
+a {
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+a:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  opacity: .65;
+}
+a:focus {
+  outline: none;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+h1 strong,
+h2 strong,
+h3 strong,
+h4 strong,
+h5 strong,
+h6 strong {
+  font-weight: 400;
+}
+h1.white,
+h2.white,
+h3.white,
+h4.white,
+h5.white,
+h6.white {
+  color: #ffffff;
+  font-size: 150%;
+  margin: 0;
+  text-transform: uppercase;
+}
+p.small-text {
+  font-size: 100%!important;
+}
+hr {
+  border-top: 1px solid #aba0a3;
+}
+::selection {
+  background: #4d4d4d;
+  color: #ffffff;
+}
+input.button,
+button.button {
+  -webkit-transition: all 0.16s ease-in-out;
+  -moz-transition: all 0.16s ease-in-out;
+  -ms-transition: all 0.16s ease-in-out;
+  -o-transition: all 0.16s ease-in-out;
+  transition: all 0.16s ease-in-out;
+}
+input.button:hover,
+button.button:hover {
+  -webkit-transition: all 0.26s ease-in-out;
+  -moz-transition: all 0.26s ease-in-out;
+  -ms-transition: all 0.26s ease-in-out;
+  -o-transition: all 0.26s ease-in-out;
+  transition: all 0.26s ease-in-out;
+  opacity: .8;
+}
+input.button:focus,
+button.button:focus {
+  outline: none;
+}
+.imgResponse {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/**********************Main Styles**********************/
+body {
+  background: #ffffff;
+}
+/*Header*/
+.brand {
+  float: left;
+}
+.brand .logo {
+  margin-top: 0px;
+}
+.main-menu {
+  float: left;
+  width: auto;
+  margin-left: 15%;
+}
+.main-menu li a {
+  font-size: 50%!important;
+  margin: 20px 15px 0;
+  padding: 5px 0;
+}
+.main-menu li a.active {
+  border-bottom: 2px solid #32b34c;
+}
+.main-menu li a:hover {
+  opacity: .7;
+  border-bottom: 2px solid #32b34c;
+}
+[class^="mif-"],
+[class*=" mif-"] {
+  margin-top: -5px;
+}
+/*Content*/
+/*Debug de pixel ratio*/
+.content-padded {
+  padding: 0 15px;
+}
+.debug-content {
+  display: none;
+  background: rgba(204, 204, 204, 0.26);
+  border-radius: 4px;
+  color: #000000;
+  font-size: 80%;
+  font-weight: bold;
+  margin: 5px -10px 0;
+  padding: 4px 14px;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 40%;
+  z-index: 100;
+}
+.debug-content .print-mediaquery p {
+  line-height: 1em;
+}

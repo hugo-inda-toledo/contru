@@ -1,0 +1,81 @@
+2016-07-15 16:05:45 Notice: Notice (8): Undefined variable: currencyValueTable in [C:\wamp\www\cl_ldz_cpo\dev\src\Model\Table\CurrenciesTable.php, line 119]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Model\Table\CurrenciesTable::updateCurrencies() - APP/Model\Table\CurrenciesTable.php, line 119
+App\Shell\CurrenciesShell::updateCurrencies() - APP/Shell\CurrenciesShell.php, line 31
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 439
+Cake\Console\ShellDispatcher::_dispatch() - CORE\src\Console\ShellDispatcher.php, line 217
+Cake\Console\ShellDispatcher::dispatch() - CORE\src\Console\ShellDispatcher.php, line 181
+Cake\Console\ShellDispatcher::run() - CORE\src\Console\ShellDispatcher.php, line 127
+[main] - ROOT\bin\cake.php, line 33
+
+
+
+2016-07-15 16:06:23 Notice: Notice (8): Undefined variable: currencyValueTable in [C:\wamp\www\cl_ldz_cpo\dev\src\Model\Table\CurrenciesTable.php, line 118]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Model\Table\CurrenciesTable::updateCurrencies() - APP/Model\Table\CurrenciesTable.php, line 118
+App\Shell\CurrenciesShell::updateCurrencies() - APP/Shell\CurrenciesShell.php, line 31
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 439
+Cake\Console\ShellDispatcher::_dispatch() - CORE\src\Console\ShellDispatcher.php, line 217
+Cake\Console\ShellDispatcher::dispatch() - CORE\src\Console\ShellDispatcher.php, line 181
+Cake\Console\ShellDispatcher::run() - CORE\src\Console\ShellDispatcher.php, line 127
+[main] - ROOT\bin\cake.php, line 33
+
+
+
+2016-07-15 16:09:35 Notice: Notice (8): Undefined variable: currencyValueTable in [C:\wamp\www\cl_ldz_cpo\dev\src\Model\Table\CurrenciesTable.php, line 121]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Model\Table\CurrenciesTable::updateCurrencies() - APP/Model\Table\CurrenciesTable.php, line 121
+App\Shell\CurrenciesShell::updateCurrencies() - APP/Shell\CurrenciesShell.php, line 31
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 439
+Cake\Console\ShellDispatcher::_dispatch() - CORE\src\Console\ShellDispatcher.php, line 217
+Cake\Console\ShellDispatcher::dispatch() - CORE\src\Console\ShellDispatcher.php, line 181
+Cake\Console\ShellDispatcher::run() - CORE\src\Console\ShellDispatcher.php, line 127
+[main] - ROOT\bin\cake.php, line 33
+
+
+
+2016-07-15 16:10:58 Notice: Notice (8): Undefined variable: currencyValueTable in [C:\wamp\www\cl_ldz_cpo\dev\src\Model\Table\CurrenciesTable.php, line 128]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Model\Table\CurrenciesTable::updateCurrencies() - APP/Model\Table\CurrenciesTable.php, line 128
+App\Shell\CurrenciesShell::updateCurrencies() - APP/Shell\CurrenciesShell.php, line 31
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 439
+Cake\Console\ShellDispatcher::_dispatch() - CORE\src\Console\ShellDispatcher.php, line 217
+Cake\Console\ShellDispatcher::dispatch() - CORE\src\Console\ShellDispatcher.php, line 181
+Cake\Console\ShellDispatcher::run() - CORE\src\Console\ShellDispatcher.php, line 127
+[main] - ROOT\bin\cake.php, line 33
+
+
+
+2016-07-15 16:23:34 Notice: Notice (8): Undefined variable: new_date in [C:\wamp\www\cl_ldz_cpo\dev\src\Model\Table\CurrenciesTable.php, line 118]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Model\Table\CurrenciesTable::updateCurrencies() - APP/Model\Table\CurrenciesTable.php, line 118
+App\Shell\CurrenciesShell::updateCurrencies() - APP/Shell\CurrenciesShell.php, line 31
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 439
+Cake\Console\ShellDispatcher::_dispatch() - CORE\src\Console\ShellDispatcher.php, line 217
+Cake\Console\ShellDispatcher::dispatch() - CORE\src\Console\ShellDispatcher.php, line 181
+Cake\Console\ShellDispatcher::run() - CORE\src\Console\ShellDispatcher.php, line 127
+[main] - ROOT\bin\cake.php, line 33
+
+
+
+2016-10-20 14:51:36 Notice: Notice (8): Undefined property: App\Shell\BudgetItemsShell::$IcOrgc in [C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\Shell.php, line 533]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\Console\Shell::__get() - CORE\src\Console\Shell.php, line 533
+App\Shell\BudgetItemsShell::getCustomColumnFromIconstruye() - APP/Shell\BudgetItemsShell.php, line 753
+App\Shell\BudgetItemsShell::commitedMaterials() - APP/Shell\BudgetItemsShell.php, line 194
+App\Shell\BudgetItemsShell::refreshItems() - APP/Shell\BudgetItemsShell.php, line 100
+App\Shell\BudgetItemsShell::main() - APP/Shell\BudgetItemsShell.php, line 45
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 456
+Cake\Console\ShellDispatcher::_dispatch() - CORE\src\Console\ShellDispatcher.php, line 217
+Cake\Console\ShellDispatcher::dispatch() - CORE\src\Console\ShellDispatcher.php, line 181
+Cake\Console\ShellDispatcher::run() - CORE\src\Console\ShellDispatcher.php, line 127
+[main] - ROOT\bin\cake.php, line 33
+
+
+

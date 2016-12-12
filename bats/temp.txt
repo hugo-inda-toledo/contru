@@ -1,0 +1,5 @@
+open 200.27.7.252
+LDZ
+kaOjjGjt
+get /backup/test.txt
+quit

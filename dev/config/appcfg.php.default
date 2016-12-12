@@ -1,0 +1,19 @@
+<?php
+/**
+* Para cambiar de configuración modificar el valor de $USE_CONFIG
+* Para agregar una nueva configuración agregar el arreglo correspondiente a $CONFIGS
+*/
+$USECONFIG = 'development';
+
+/**
+* Parámetros de configuración de la aplicación
+*
+* SESSION_TIMEOUT : Minutos que demora en expirar la Sesión.
+* APP_BASE_URL    : Url base de la aplicación, desde http:// (incluyendo) hasta / antes del controlador (sin el /), ejemplo http://www.baseurl.com/users/index sería http://www.baseurl.com
+*/
+$CONFIGS = array(
+    'development' => array(
+        'SESSION_TIMEOUT' => 30,
+        'APP_BASE_URL'    => 'localhost',
+    )
+);

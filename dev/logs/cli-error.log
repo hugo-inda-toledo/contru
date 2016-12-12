@@ -1,0 +1,831 @@
+2016-07-15 15:46:37 Error: [Cake\Console\Exception\MissingShellException] Shell class for "CurrenciesShell" could not be found.
+Exception Attributes: array (
+  'class' => 'CurrenciesShell',
+)
+Stack Trace:
+#0 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(214): Cake\Console\ShellDispatcher->findShell('CurrenciesShell')
+#1 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#2 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#3 C:\wamp\www\cl_ldz_cpo\dev\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2016-07-15 15:56:35 Error: [RuntimeException] Table "App\Model\Table\CurrenciesTable" is not associated with "Currencies"
+Stack Trace:
+#0 C:\wamp\www\cl_ldz_cpo\dev\src\Model\Table\CurrenciesTable.php(64): Cake\ORM\Table->__get('Currencies')
+#1 C:\wamp\www\cl_ldz_cpo\dev\src\Shell\CurrenciesShell.php(31): App\Model\Table\CurrenciesTable->updateCurrencies()
+#2 [internal function]: App\Shell\CurrenciesShell->updateCurrencies()
+#3 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\Shell.php(439): call_user_func_array(Array, Array)
+#4 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(217): Cake\Console\Shell->runCommand(Array, true, Array)
+#5 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#6 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#7 C:\wamp\www\cl_ldz_cpo\dev\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#8 {main}
+
+
+2016-07-15 15:57:27 Error: [RuntimeException] Table "App\Model\Table\CurrenciesTable" is not associated with "Currencies"
+Stack Trace:
+#0 C:\wamp\www\cl_ldz_cpo\dev\src\Model\Table\CurrenciesTable.php(64): Cake\ORM\Table->__get('Currencies')
+#1 C:\wamp\www\cl_ldz_cpo\dev\src\Shell\CurrenciesShell.php(31): App\Model\Table\CurrenciesTable->updateCurrencies()
+#2 [internal function]: App\Shell\CurrenciesShell->updateCurrencies()
+#3 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\Shell.php(439): call_user_func_array(Array, Array)
+#4 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(217): Cake\Console\Shell->runCommand(Array, true, Array)
+#5 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#6 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#7 C:\wamp\www\cl_ldz_cpo\dev\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#8 {main}
+
+
+2016-07-15 15:57:53 Error: [BadMethodCallException] Unknown method "updateCurrencies"
+Stack Trace:
+#0 [internal function]: Cake\ORM\Table->__call('updateCurrencie...', Array)
+#1 [internal function]: App\Model\Table\ValoresmonedasTable->updateCurrencies()
+#2 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Association.php(924): call_user_func_array(Array, Array)
+#3 C:\wamp\www\cl_ldz_cpo\dev\src\Shell\CurrenciesShell.php(31): Cake\ORM\Association->__call('updateCurrencie...', Array)
+#4 C:\wamp\www\cl_ldz_cpo\dev\src\Shell\CurrenciesShell.php(31): Cake\ORM\Association\HasMany->updateCurrencies()
+#5 [internal function]: App\Shell\CurrenciesShell->updateCurrencies()
+#6 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\Shell.php(439): call_user_func_array(Array, Array)
+#7 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(217): Cake\Console\Shell->runCommand(Array, true, Array)
+#8 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#9 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#10 C:\wamp\www\cl_ldz_cpo\dev\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#11 {main}
+
+
+2016-07-15 15:58:18 Error: [RuntimeException] Table "App\Model\Table\CurrenciesTable" is not associated with "Currencies"
+Stack Trace:
+#0 C:\wamp\www\cl_ldz_cpo\dev\src\Model\Table\CurrenciesTable.php(64): Cake\ORM\Table->__get('Currencies')
+#1 C:\wamp\www\cl_ldz_cpo\dev\src\Shell\CurrenciesShell.php(31): App\Model\Table\CurrenciesTable->updateCurrencies()
+#2 [internal function]: App\Shell\CurrenciesShell->updateCurrencies()
+#3 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\Shell.php(439): call_user_func_array(Array, Array)
+#4 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(217): Cake\Console\Shell->runCommand(Array, true, Array)
+#5 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#6 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#7 C:\wamp\www\cl_ldz_cpo\dev\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#8 {main}
+
+
+2016-07-15 15:59:12 Error: [RuntimeException] Table "App\Model\Table\CurrenciesTable" is not associated with "Currencies"
+Stack Trace:
+#0 C:\wamp\www\cl_ldz_cpo\dev\src\Model\Table\CurrenciesTable.php(64): Cake\ORM\Table->__get('Currencies')
+#1 C:\wamp\www\cl_ldz_cpo\dev\src\Shell\CurrenciesShell.php(31): App\Model\Table\CurrenciesTable->updateCurrencies()
+#2 [internal function]: App\Shell\CurrenciesShell->updateCurrencies()
+#3 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\Shell.php(439): call_user_func_array(Array, Array)
+#4 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(217): Cake\Console\Shell->runCommand(Array, true, Array)
+#5 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#6 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#7 C:\wamp\www\cl_ldz_cpo\dev\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#8 {main}
+
+
+2016-07-15 16:00:57 Error: [RuntimeException] Table "App\Model\Table\CurrenciesTable" is not associated with "Currencies"
+Stack Trace:
+#0 C:\wamp\www\cl_ldz_cpo\dev\src\Model\Table\CurrenciesTable.php(65): Cake\ORM\Table->__get('Currencies')
+#1 C:\wamp\www\cl_ldz_cpo\dev\src\Shell\CurrenciesShell.php(31): App\Model\Table\CurrenciesTable->updateCurrencies()
+#2 [internal function]: App\Shell\CurrenciesShell->updateCurrencies()
+#3 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\Shell.php(439): call_user_func_array(Array, Array)
+#4 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(217): Cake\Console\Shell->runCommand(Array, true, Array)
+#5 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#6 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#7 C:\wamp\www\cl_ldz_cpo\dev\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#8 {main}
+
+
+2016-07-15 16:01:07 Error: [RuntimeException] Table "App\Model\Table\CurrenciesTable" is not associated with "Currencies"
+Stack Trace:
+#0 C:\wamp\www\cl_ldz_cpo\dev\src\Model\Table\CurrenciesTable.php(65): Cake\ORM\Table->__get('Currencies')
+#1 C:\wamp\www\cl_ldz_cpo\dev\src\Shell\CurrenciesShell.php(31): App\Model\Table\CurrenciesTable->updateCurrencies()
+#2 [internal function]: App\Shell\CurrenciesShell->updateCurrencies()
+#3 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\Shell.php(439): call_user_func_array(Array, Array)
+#4 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(217): Cake\Console\Shell->runCommand(Array, true, Array)
+#5 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#6 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#7 C:\wamp\www\cl_ldz_cpo\dev\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#8 {main}
+
+
+2016-07-15 16:24:12 Error: [BadMethodCallException] Unknown method "out"
+Stack Trace:
+#0 C:\wamp\www\cl_ldz_cpo\dev\src\Model\Table\CurrenciesTable.php(118): Cake\ORM\Table->__call('out', Array)
+#1 C:\wamp\www\cl_ldz_cpo\dev\src\Model\Table\CurrenciesTable.php(118): App\Model\Table\CurrenciesTable->out('Actualizando nu...')
+#2 C:\wamp\www\cl_ldz_cpo\dev\src\Shell\CurrenciesShell.php(31): App\Model\Table\CurrenciesTable->updateCurrencies()
+#3 [internal function]: App\Shell\CurrenciesShell->updateCurrencies()
+#4 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\Shell.php(439): call_user_func_array(Array, Array)
+#5 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(217): Cake\Console\Shell->runCommand(Array, true, Array)
+#6 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#7 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#8 C:\wamp\www\cl_ldz_cpo\dev\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#9 {main}
+
+
+2016-07-15 16:24:36 Error: [BadMethodCallException] Unknown method "out"
+Stack Trace:
+#0 C:\wamp\www\cl_ldz_cpo\dev\src\Model\Table\CurrenciesTable.php(119): Cake\ORM\Table->__call('out', Array)
+#1 C:\wamp\www\cl_ldz_cpo\dev\src\Model\Table\CurrenciesTable.php(119): App\Model\Table\CurrenciesTable->out('Actualizando nu...')
+#2 C:\wamp\www\cl_ldz_cpo\dev\src\Shell\CurrenciesShell.php(31): App\Model\Table\CurrenciesTable->updateCurrencies()
+#3 [internal function]: App\Shell\CurrenciesShell->updateCurrencies()
+#4 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\Shell.php(439): call_user_func_array(Array, Array)
+#5 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(217): Cake\Console\Shell->runCommand(Array, true, Array)
+#6 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#7 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#8 C:\wamp\www\cl_ldz_cpo\dev\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#9 {main}
+
+
+2016-07-15 16:25:30 Error: [BadMethodCallException] Unknown method "out"
+Stack Trace:
+#0 C:\wamp\www\cl_ldz_cpo\dev\src\Model\Table\CurrenciesTable.php(118): Cake\ORM\Table->__call('out', Array)
+#1 C:\wamp\www\cl_ldz_cpo\dev\src\Model\Table\CurrenciesTable.php(118): App\Model\Table\CurrenciesTable->out('Actualizando nu...')
+#2 C:\wamp\www\cl_ldz_cpo\dev\src\Shell\CurrenciesShell.php(31): App\Model\Table\CurrenciesTable->updateCurrencies()
+#3 [internal function]: App\Shell\CurrenciesShell->updateCurrencies()
+#4 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\Shell.php(439): call_user_func_array(Array, Array)
+#5 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(217): Cake\Console\Shell->runCommand(Array, true, Array)
+#6 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#7 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#8 C:\wamp\www\cl_ldz_cpo\dev\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#9 {main}
+
+
+2016-07-15 16:28:28 Error: [BadMethodCallException] Unknown method "out"
+Stack Trace:
+#0 C:\wamp\www\cl_ldz_cpo\dev\src\Model\Table\CurrenciesTable.php(119): Cake\ORM\Table->__call('out', Array)
+#1 C:\wamp\www\cl_ldz_cpo\dev\src\Model\Table\CurrenciesTable.php(119): App\Model\Table\CurrenciesTable->out('Actualizando nu...')
+#2 C:\wamp\www\cl_ldz_cpo\dev\src\Shell\CurrenciesShell.php(31): App\Model\Table\CurrenciesTable->updateCurrencies()
+#3 [internal function]: App\Shell\CurrenciesShell->updateCurrencies()
+#4 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\Shell.php(439): call_user_func_array(Array, Array)
+#5 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(217): Cake\Console\Shell->runCommand(Array, true, Array)
+#6 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#7 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#8 C:\wamp\www\cl_ldz_cpo\dev\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#9 {main}
+
+
+2016-08-16 16:02:52 Error: [PDOException] SQLSTATE[HY000] [1049] Base 'ldz2' inconnue
+Stack Trace:
+#0 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(90): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(43): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Connection.php(317): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Table.php(428): Cake\Database\Connection->schemaCollection()
+#8 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Query.php(211): Cake\ORM\Table->schema()
+#9 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\CurrenciesTable))
+#10 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Table.php(1242): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\CurrenciesTable))
+#11 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Table.php(945): Cake\ORM\Table->query()
+#12 C:\wamp\www\cl_ldz_cpo\dev\src\Model\Table\CurrenciesTable.php(69): Cake\ORM\Table->find('all', Array)
+#13 C:\wamp\www\cl_ldz_cpo\dev\src\Shell\CurrenciesShell.php(30): App\Model\Table\CurrenciesTable->updateCurrencies()
+#14 [internal function]: App\Shell\CurrenciesShell->updateCurrencies()
+#15 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\Shell.php(439): call_user_func_array(Array, Array)
+#16 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(217): Cake\Console\Shell->runCommand(Array, true, Array)
+#17 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#18 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#19 C:\wamp\www\cl_ldz_cpo\dev\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#20 {main}
+
+
+2016-08-16 16:02:54 Error: [PDOException] SQLSTATE[HY000] [1049] Base 'ldz2' inconnue
+Stack Trace:
+#0 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(90): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(43): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Connection.php(317): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Table.php(428): Cake\Database\Connection->schemaCollection()
+#8 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Query.php(211): Cake\ORM\Table->schema()
+#9 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\CurrenciesTable))
+#10 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Table.php(1242): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\CurrenciesTable))
+#11 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Table.php(945): Cake\ORM\Table->query()
+#12 C:\wamp\www\cl_ldz_cpo\dev\src\Model\Table\CurrenciesTable.php(69): Cake\ORM\Table->find('all', Array)
+#13 C:\wamp\www\cl_ldz_cpo\dev\src\Shell\CurrenciesShell.php(30): App\Model\Table\CurrenciesTable->updateCurrencies()
+#14 [internal function]: App\Shell\CurrenciesShell->updateCurrencies()
+#15 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\Shell.php(439): call_user_func_array(Array, Array)
+#16 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(217): Cake\Console\Shell->runCommand(Array, true, Array)
+#17 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#18 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#19 C:\wamp\www\cl_ldz_cpo\dev\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#20 {main}
+
+
+2016-08-16 16:03:09 Error: [PDOException] SQLSTATE[HY000] [1049] Base 'ldz2' inconnue
+Stack Trace:
+#0 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(90): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(43): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Connection.php(317): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Table.php(428): Cake\Database\Connection->schemaCollection()
+#8 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Query.php(211): Cake\ORM\Table->schema()
+#9 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Query.php(169): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\CurrenciesTable))
+#10 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Table.php(1242): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\CurrenciesTable))
+#11 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Table.php(945): Cake\ORM\Table->query()
+#12 C:\wamp\www\cl_ldz_cpo\dev\src\Model\Table\CurrenciesTable.php(69): Cake\ORM\Table->find('all', Array)
+#13 C:\wamp\www\cl_ldz_cpo\dev\src\Shell\CurrenciesShell.php(30): App\Model\Table\CurrenciesTable->updateCurrencies()
+#14 [internal function]: App\Shell\CurrenciesShell->updateCurrencies()
+#15 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\Shell.php(439): call_user_func_array(Array, Array)
+#16 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(217): Cake\Console\Shell->runCommand(Array, true, Array)
+#17 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#18 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#19 C:\wamp\www\cl_ldz_cpo\dev\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#20 {main}
+
+
+2016-09-13 15:23:17 Error: [Cake\Core\Exception\MissingPluginException] Plugin Ac could not be found.
+Exception Attributes: array (
+  'plugin' => 'Ac',
+)
+Stack Trace:
+#0 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\Shell.php(425): Cake\Core\Plugin::load('Ac')
+#1 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(110): Cake\Console\Shell->runCommand(Array, true, Array)
+#2 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(217): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#3 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#4 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#5 C:\wamp\www\cl_ldz_cpo\dev\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#6 {main}
+
+
+2016-09-13 16:36:07 Error: [RuntimeException] The "Acl" alias has already been loaded with the following config: array (
+) which differs from array (
+  'className' => 'Acl.Acl',
+)
+Stack Trace:
+#0 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(82): Cake\Core\ObjectRegistry->_checkDuplicate('Acl', Array)
+#1 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Controller\Controller.php(321): Cake\Core\ObjectRegistry->load('Acl', Array)
+#2 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Controller\Controller.php(475): Cake\Controller\Controller->loadComponent('Acl', Array)
+#3 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Controller\Controller.php(265): Cake\Controller\Controller->_loadComponents()
+#4 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\acl\src\AclExtras.php(433): Cake\Controller\Controller->__construct()
+#5 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\acl\src\AclExtras.php(320): Acl\AclExtras->_checkMethods('AclController.p...', 'Acl', Object(Acl\Model\Entity\Aco), '', NULL)
+#6 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\acl\src\AclExtras.php(199): Acl\AclExtras->_updateControllers(Object(Acl\Model\Entity\Aco), Array)
+#7 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\acl\src\AclExtras.php(165): Acl\AclExtras->_processControllers(Object(Acl\Model\Entity\Aco))
+#8 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\acl\src\AclExtras.php(151): Acl\AclExtras->acoUpdate(Array)
+#9 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\acl\src\Shell\AclExtrasShell.php(83): Acl\AclExtras->acoSync(Array)
+#10 [internal function]: Acl\Shell\AclExtrasShell->acoSync()
+#11 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\Shell.php(444): call_user_func_array(Array, Array)
+#12 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(217): Cake\Console\Shell->runCommand(Array, true, Array)
+#13 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#14 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#15 C:\wamp\www\cl_ldz_cpo\dev\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#16 {main}
+
+
+2016-09-13 16:37:18 Error: [RuntimeException] The "Acl" alias has already been loaded with the following config: array (
+) which differs from array (
+  'className' => 'Acl.Acl',
+)
+Stack Trace:
+#0 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(82): Cake\Core\ObjectRegistry->_checkDuplicate('Acl', Array)
+#1 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Controller\Controller.php(321): Cake\Core\ObjectRegistry->load('Acl', Array)
+#2 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Controller\Controller.php(475): Cake\Controller\Controller->loadComponent('Acl', Array)
+#3 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Controller\Controller.php(265): Cake\Controller\Controller->_loadComponents()
+#4 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\acl\src\AclExtras.php(433): Cake\Controller\Controller->__construct()
+#5 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\acl\src\AclExtras.php(320): Acl\AclExtras->_checkMethods('AclController.p...', 'Acl', Object(Acl\Model\Entity\Aco), '', NULL)
+#6 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\acl\src\AclExtras.php(199): Acl\AclExtras->_updateControllers(Object(Acl\Model\Entity\Aco), Array)
+#7 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\acl\src\AclExtras.php(165): Acl\AclExtras->_processControllers(Object(Acl\Model\Entity\Aco))
+#8 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\acl\src\AclExtras.php(151): Acl\AclExtras->acoUpdate(Array)
+#9 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\acl\src\Shell\AclExtrasShell.php(83): Acl\AclExtras->acoSync(Array)
+#10 [internal function]: Acl\Shell\AclExtrasShell->acoSync()
+#11 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\Shell.php(444): call_user_func_array(Array, Array)
+#12 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(217): Cake\Console\Shell->runCommand(Array, true, Array)
+#13 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#14 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#15 C:\wamp\www\cl_ldz_cpo\dev\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#16 {main}
+
+
+2016-09-13 16:37:26 Error: [RuntimeException] The "Acl" alias has already been loaded with the following config: array (
+) which differs from array (
+  'className' => 'Acl.Acl',
+)
+Stack Trace:
+#0 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(82): Cake\Core\ObjectRegistry->_checkDuplicate('Acl', Array)
+#1 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Controller\Controller.php(321): Cake\Core\ObjectRegistry->load('Acl', Array)
+#2 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Controller\Controller.php(475): Cake\Controller\Controller->loadComponent('Acl', Array)
+#3 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Controller\Controller.php(265): Cake\Controller\Controller->_loadComponents()
+#4 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\acl\src\AclExtras.php(433): Cake\Controller\Controller->__construct()
+#5 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\acl\src\AclExtras.php(320): Acl\AclExtras->_checkMethods('AclController.p...', 'Acl', Object(Acl\Model\Entity\Aco), '', NULL)
+#6 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\acl\src\AclExtras.php(199): Acl\AclExtras->_updateControllers(Object(Acl\Model\Entity\Aco), Array)
+#7 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\acl\src\AclExtras.php(165): Acl\AclExtras->_processControllers(Object(Acl\Model\Entity\Aco))
+#8 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\acl\src\AclExtras.php(151): Acl\AclExtras->acoUpdate(Array)
+#9 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\acl\src\Shell\AclExtrasShell.php(83): Acl\AclExtras->acoSync(Array)
+#10 [internal function]: Acl\Shell\AclExtrasShell->acoSync()
+#11 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\Shell.php(444): call_user_func_array(Array, Array)
+#12 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(217): Cake\Console\Shell->runCommand(Array, true, Array)
+#13 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#14 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#15 C:\wamp\www\cl_ldz_cpo\dev\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#16 {main}
+
+
+2016-09-13 16:37:59 Error: [RuntimeException] The "Acl" alias has already been loaded with the following config: array (
+) which differs from array (
+  'className' => 'Acl.Acl',
+)
+Stack Trace:
+#0 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(82): Cake\Core\ObjectRegistry->_checkDuplicate('Acl', Array)
+#1 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Controller\Controller.php(321): Cake\Core\ObjectRegistry->load('Acl', Array)
+#2 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Controller\Controller.php(475): Cake\Controller\Controller->loadComponent('Acl', Array)
+#3 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Controller\Controller.php(265): Cake\Controller\Controller->_loadComponents()
+#4 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\acl\src\AclExtras.php(433): Cake\Controller\Controller->__construct()
+#5 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\acl\src\AclExtras.php(320): Acl\AclExtras->_checkMethods('AclController.p...', 'Acl', Object(Acl\Model\Entity\Aco), '', NULL)
+#6 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\acl\src\AclExtras.php(199): Acl\AclExtras->_updateControllers(Object(Acl\Model\Entity\Aco), Array)
+#7 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\acl\src\AclExtras.php(165): Acl\AclExtras->_processControllers(Object(Acl\Model\Entity\Aco))
+#8 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\acl\src\AclExtras.php(151): Acl\AclExtras->acoUpdate(Array)
+#9 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\acl\src\Shell\AclExtrasShell.php(83): Acl\AclExtras->acoSync(Array)
+#10 [internal function]: Acl\Shell\AclExtrasShell->acoSync()
+#11 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\Shell.php(444): call_user_func_array(Array, Array)
+#12 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(217): Cake\Console\Shell->runCommand(Array, true, Array)
+#13 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#14 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#15 C:\wamp\www\cl_ldz_cpo\dev\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#16 {main}
+
+
+2016-09-13 16:38:43 Error: [RuntimeException] The "Acl" alias has already been loaded with the following config: array (
+) which differs from array (
+  'className' => 'Acl.Acl',
+)
+Stack Trace:
+#0 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(82): Cake\Core\ObjectRegistry->_checkDuplicate('Acl', Array)
+#1 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Controller\Controller.php(321): Cake\Core\ObjectRegistry->load('Acl', Array)
+#2 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Controller\Controller.php(475): Cake\Controller\Controller->loadComponent('Acl', Array)
+#3 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Controller\Controller.php(265): Cake\Controller\Controller->_loadComponents()
+#4 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\acl\src\AclExtras.php(433): Cake\Controller\Controller->__construct()
+#5 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\acl\src\AclExtras.php(320): Acl\AclExtras->_checkMethods('AclController.p...', 'Acl', Object(Acl\Model\Entity\Aco), '', NULL)
+#6 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\acl\src\AclExtras.php(199): Acl\AclExtras->_updateControllers(Object(Acl\Model\Entity\Aco), Array)
+#7 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\acl\src\AclExtras.php(165): Acl\AclExtras->_processControllers(Object(Acl\Model\Entity\Aco))
+#8 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\acl\src\AclExtras.php(151): Acl\AclExtras->acoUpdate(Array)
+#9 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\acl\src\Shell\AclExtrasShell.php(83): Acl\AclExtras->acoSync(Array)
+#10 [internal function]: Acl\Shell\AclExtrasShell->acoSync()
+#11 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\Shell.php(444): call_user_func_array(Array, Array)
+#12 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(217): Cake\Console\Shell->runCommand(Array, true, Array)
+#13 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#14 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#15 C:\wamp\www\cl_ldz_cpo\dev\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#16 {main}
+
+
+2016-09-13 16:39:34 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Sqlserver cannot be used due to a missing PHP extension or unmet dependency
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Sqlserver',
+)
+Stack Trace:
+#0 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Connection.php(108): Cake\Database\Connection->driver('Cake\\Database\\D...', Array)
+#1 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(87): Cake\Database\Connection->__construct(Array)
+#2 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'softland', Array)
+#3 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(202): Cake\Core\ObjectRegistry->load('softland', Array)
+#4 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php(171): Cake\Datasource\ConnectionManager::get('softland')
+#5 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php(114): Cake\ORM\Locator\TableLocator->get('SfBuildings')
+#6 C:\wamp\www\cl_ldz_cpo\dev\src\Controller\AssistsController.php(20): Cake\Controller\Controller->loadModel('SfBuildings')
+#7 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Controller\Controller.php(262): App\Controller\AssistsController->initialize()
+#8 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\acl\src\AclExtras.php(433): Cake\Controller\Controller->__construct()
+#9 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\acl\src\AclExtras.php(320): Acl\AclExtras->_checkMethods('AssistsControll...', 'Assists', Object(Acl\Model\Entity\Aco), '', NULL)
+#10 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\acl\src\AclExtras.php(199): Acl\AclExtras->_updateControllers(Object(Acl\Model\Entity\Aco), Array)
+#11 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\acl\src\AclExtras.php(165): Acl\AclExtras->_processControllers(Object(Acl\Model\Entity\Aco))
+#12 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\acl\src\AclExtras.php(151): Acl\AclExtras->acoUpdate(Array)
+#13 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\acl\src\Shell\AclExtrasShell.php(83): Acl\AclExtras->acoSync(Array)
+#14 [internal function]: Acl\Shell\AclExtrasShell->acoSync()
+#15 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\Shell.php(444): call_user_func_array(Array, Array)
+#16 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(217): Cake\Console\Shell->runCommand(Array, true, Array)
+#17 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#18 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#19 C:\wamp\www\cl_ldz_cpo\dev\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#20 {main}
+
+
+2016-09-13 16:40:43 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Sqlserver cannot be used due to a missing PHP extension or unmet dependency
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Sqlserver',
+)
+Stack Trace:
+#0 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Connection.php(108): Cake\Database\Connection->driver('Cake\\Database\\D...', Array)
+#1 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(87): Cake\Database\Connection->__construct(Array)
+#2 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'softland', Array)
+#3 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(202): Cake\Core\ObjectRegistry->load('softland', Array)
+#4 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php(171): Cake\Datasource\ConnectionManager::get('softland')
+#5 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php(114): Cake\ORM\Locator\TableLocator->get('SfBuildings')
+#6 C:\wamp\www\cl_ldz_cpo\dev\src\Controller\AssistsController.php(20): Cake\Controller\Controller->loadModel('SfBuildings')
+#7 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Controller\Controller.php(262): App\Controller\AssistsController->initialize()
+#8 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\acl\src\AclExtras.php(433): Cake\Controller\Controller->__construct()
+#9 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\acl\src\AclExtras.php(320): Acl\AclExtras->_checkMethods('AssistsControll...', 'Assists', Object(Acl\Model\Entity\Aco), '', NULL)
+#10 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\acl\src\AclExtras.php(199): Acl\AclExtras->_updateControllers(Object(Acl\Model\Entity\Aco), Array)
+#11 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\acl\src\AclExtras.php(165): Acl\AclExtras->_processControllers(Object(Acl\Model\Entity\Aco))
+#12 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\acl\src\AclExtras.php(151): Acl\AclExtras->acoUpdate(Array)
+#13 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\acl\src\Shell\AclExtrasShell.php(83): Acl\AclExtras->acoSync(Array)
+#14 [internal function]: Acl\Shell\AclExtrasShell->acoSync()
+#15 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\Shell.php(444): call_user_func_array(Array, Array)
+#16 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(217): Cake\Console\Shell->runCommand(Array, true, Array)
+#17 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#18 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#19 C:\wamp\www\cl_ldz_cpo\dev\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#20 {main}
+
+
+2016-09-13 16:52:18 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Sqlserver cannot be used due to a missing PHP extension or unmet dependency
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Sqlserver',
+)
+Stack Trace:
+#0 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Connection.php(108): Cake\Database\Connection->driver('Cake\\Database\\D...', Array)
+#1 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(87): Cake\Database\Connection->__construct(Array)
+#2 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'softland', Array)
+#3 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(202): Cake\Core\ObjectRegistry->load('softland', Array)
+#4 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php(171): Cake\Datasource\ConnectionManager::get('softland')
+#5 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php(114): Cake\ORM\Locator\TableLocator->get('SfBuildings')
+#6 C:\wamp\www\cl_ldz_cpo\dev\src\Controller\AssistsController.php(20): Cake\Controller\Controller->loadModel('SfBuildings')
+#7 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Controller\Controller.php(262): App\Controller\AssistsController->initialize()
+#8 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\acl\src\AclExtras.php(433): Cake\Controller\Controller->__construct()
+#9 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\acl\src\AclExtras.php(320): Acl\AclExtras->_checkMethods('AssistsControll...', 'Assists', Object(Acl\Model\Entity\Aco), '', NULL)
+#10 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\acl\src\AclExtras.php(199): Acl\AclExtras->_updateControllers(Object(Acl\Model\Entity\Aco), Array)
+#11 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\acl\src\AclExtras.php(165): Acl\AclExtras->_processControllers(Object(Acl\Model\Entity\Aco))
+#12 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\acl\src\AclExtras.php(151): Acl\AclExtras->acoUpdate(Array)
+#13 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\acl\src\Shell\AclExtrasShell.php(83): Acl\AclExtras->acoSync(Array)
+#14 [internal function]: Acl\Shell\AclExtrasShell->acoSync()
+#15 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\Shell.php(444): call_user_func_array(Array, Array)
+#16 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(217): Cake\Console\Shell->runCommand(Array, true, Array)
+#17 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#18 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#19 C:\wamp\www\cl_ldz_cpo\dev\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#20 {main}
+
+
+2016-10-20 14:46:52 Error: [InvalidArgumentException] Budgets is not associated with SfBuildings
+Stack Trace:
+#0 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(252): Cake\ORM\EagerLoader->_normalizeContain(Object(App\Model\Table\BudgetsTable), 'SfBuildings', Array, Array)
+#1 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(377): Cake\ORM\EagerLoader->normalized(Object(App\Model\Table\BudgetsTable))
+#2 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\EagerLoader.php(348): Cake\ORM\EagerLoader->attachableAssociations(Object(App\Model\Table\BudgetsTable))
+#3 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Query.php(947): Cake\ORM\EagerLoader->attachAssociations(Object(Cake\ORM\Query), Object(App\Model\Table\BudgetsTable), true)
+#4 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Query.php(901): Cake\ORM\Query->_transformQuery()
+#5 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(121): Cake\ORM\Query->sql()
+#6 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Connection.php(218): Cake\Database\Driver\Mysql->prepare(Object(Cake\ORM\Query))
+#7 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Connection.php(270): Cake\Database\Connection->prepare(Object(Cake\ORM\Query))
+#8 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Query.php(188): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#9 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Query.php(921): Cake\Database\Query->execute()
+#10 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(272): Cake\ORM\Query->_execute()
+#11 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Query.php(871): Cake\ORM\Query->_all()
+#12 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(288): Cake\ORM\Query->all()
+#13 C:\wamp\www\cl_ldz_cpo\dev\src\Shell\BudgetItemsShell.php(35): Cake\ORM\Query->toArray()
+#14 [internal function]: App\Shell\BudgetItemsShell->main()
+#15 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\Shell.php(456): call_user_func_array(Array, Array)
+#16 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(217): Cake\Console\Shell->runCommand(Array, true, Array)
+#17 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#18 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#19 C:\wamp\www\cl_ldz_cpo\dev\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#20 {main}
+
+
+2016-10-20 14:47:47 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Sqlserver cannot be used due to a missing PHP extension or unmet dependency
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Sqlserver',
+)
+Stack Trace:
+#0 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Connection.php(108): Cake\Database\Connection->driver('Cake\\Database\\D...', Array)
+#1 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(87): Cake\Database\Connection->__construct(Array)
+#2 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'softland', Array)
+#3 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(202): Cake\Core\ObjectRegistry->load('softland', Array)
+#4 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php(171): Cake\Datasource\ConnectionManager::get('softland')
+#5 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Association.php(319): Cake\ORM\Locator\TableLocator->get('SfBuildings', Array)
+#6 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Query.php(370): Cake\ORM\Association->target()
+#7 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Query.php(376): Cake\ORM\Query->_addAssociationsToTypeMap(Object(App\Model\Table\BuildingsTable), Object(Cake\Database\TypeMap), Array)
+#8 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Query.php(349): Cake\ORM\Query->_addAssociationsToTypeMap(Object(App\Model\Table\BudgetsTable), Object(Cake\Database\TypeMap), Array)
+#9 C:\wamp\www\cl_ldz_cpo\dev\src\Shell\BudgetItemsShell.php(34): Cake\ORM\Query->contain(Array)
+#10 [internal function]: App\Shell\BudgetItemsShell->main()
+#11 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\Shell.php(456): call_user_func_array(Array, Array)
+#12 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(217): Cake\Console\Shell->runCommand(Array, true, Array)
+#13 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#14 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#15 C:\wamp\www\cl_ldz_cpo\dev\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#16 {main}
+
+
+2016-10-20 14:49:08 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Sqlserver cannot be used due to a missing PHP extension or unmet dependency
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Sqlserver',
+)
+Stack Trace:
+#0 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Connection.php(108): Cake\Database\Connection->driver('Cake\\Database\\D...', Array)
+#1 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(87): Cake\Database\Connection->__construct(Array)
+#2 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'softland', Array)
+#3 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(202): Cake\Core\ObjectRegistry->load('softland', Array)
+#4 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php(171): Cake\Datasource\ConnectionManager::get('softland')
+#5 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Association.php(319): Cake\ORM\Locator\TableLocator->get('SfBuildings', Array)
+#6 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Query.php(370): Cake\ORM\Association->target()
+#7 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Query.php(376): Cake\ORM\Query->_addAssociationsToTypeMap(Object(App\Model\Table\BuildingsTable), Object(Cake\Database\TypeMap), Array)
+#8 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Query.php(349): Cake\ORM\Query->_addAssociationsToTypeMap(Object(App\Model\Table\BudgetsTable), Object(Cake\Database\TypeMap), Array)
+#9 C:\wamp\www\cl_ldz_cpo\dev\src\Shell\BudgetItemsShell.php(34): Cake\ORM\Query->contain(Array)
+#10 [internal function]: App\Shell\BudgetItemsShell->main()
+#11 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\Shell.php(456): call_user_func_array(Array, Array)
+#12 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(217): Cake\Console\Shell->runCommand(Array, true, Array)
+#13 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#14 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#15 C:\wamp\www\cl_ldz_cpo\dev\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#16 {main}
+
+
+2016-10-20 14:50:20 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Sqlserver cannot be used due to a missing PHP extension or unmet dependency
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Sqlserver',
+)
+Stack Trace:
+#0 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Connection.php(108): Cake\Database\Connection->driver('Cake\\Database\\D...', Array)
+#1 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(87): Cake\Database\Connection->__construct(Array)
+#2 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'softland', Array)
+#3 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(202): Cake\Core\ObjectRegistry->load('softland', Array)
+#4 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php(171): Cake\Datasource\ConnectionManager::get('softland')
+#5 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Association.php(319): Cake\ORM\Locator\TableLocator->get('SfBuildings', Array)
+#6 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Query.php(370): Cake\ORM\Association->target()
+#7 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Query.php(376): Cake\ORM\Query->_addAssociationsToTypeMap(Object(App\Model\Table\BuildingsTable), Object(Cake\Database\TypeMap), Array)
+#8 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Query.php(349): Cake\ORM\Query->_addAssociationsToTypeMap(Object(App\Model\Table\BudgetsTable), Object(Cake\Database\TypeMap), Array)
+#9 C:\wamp\www\cl_ldz_cpo\dev\src\Shell\BudgetItemsShell.php(34): Cake\ORM\Query->contain(Array)
+#10 [internal function]: App\Shell\BudgetItemsShell->main()
+#11 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\Shell.php(456): call_user_func_array(Array, Array)
+#12 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(217): Cake\Console\Shell->runCommand(Array, true, Array)
+#13 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#14 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#15 C:\wamp\www\cl_ldz_cpo\dev\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#16 {main}
+
+
+2016-10-20 14:50:42 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Sqlserver cannot be used due to a missing PHP extension or unmet dependency
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Sqlserver',
+)
+Stack Trace:
+#0 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Connection.php(108): Cake\Database\Connection->driver('Cake\\Database\\D...', Array)
+#1 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(87): Cake\Database\Connection->__construct(Array)
+#2 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'softland', Array)
+#3 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(202): Cake\Core\ObjectRegistry->load('softland', Array)
+#4 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php(171): Cake\Datasource\ConnectionManager::get('softland')
+#5 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Association.php(319): Cake\ORM\Locator\TableLocator->get('SfBuildings', Array)
+#6 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Query.php(370): Cake\ORM\Association->target()
+#7 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Query.php(376): Cake\ORM\Query->_addAssociationsToTypeMap(Object(App\Model\Table\BuildingsTable), Object(Cake\Database\TypeMap), Array)
+#8 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Query.php(349): Cake\ORM\Query->_addAssociationsToTypeMap(Object(App\Model\Table\BudgetsTable), Object(Cake\Database\TypeMap), Array)
+#9 C:\wamp\www\cl_ldz_cpo\dev\src\Shell\BudgetItemsShell.php(36): Cake\ORM\Query->contain(Array)
+#10 [internal function]: App\Shell\BudgetItemsShell->main()
+#11 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\Shell.php(456): call_user_func_array(Array, Array)
+#12 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(217): Cake\Console\Shell->runCommand(Array, true, Array)
+#13 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#14 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#15 C:\wamp\www\cl_ldz_cpo\dev\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#16 {main}
+
+
+2016-10-20 14:58:07 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Sqlserver cannot be used due to a missing PHP extension or unmet dependency
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Sqlserver',
+)
+Stack Trace:
+#0 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Connection.php(108): Cake\Database\Connection->driver('Cake\\Database\\D...', Array)
+#1 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(87): Cake\Database\Connection->__construct(Array)
+#2 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'iconstruye', Array)
+#3 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(202): Cake\Core\ObjectRegistry->load('iconstruye', Array)
+#4 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php(171): Cake\Datasource\ConnectionManager::get('iconstruye')
+#5 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php(114): Cake\ORM\Locator\TableLocator->get('IcPartida')
+#6 C:\wamp\www\cl_ldz_cpo\dev\src\Shell\BudgetItemsShell.php(24): Cake\Console\Shell->loadModel('IcPartida')
+#7 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(216): App\Shell\BudgetItemsShell->initialize()
+#8 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#9 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#10 C:\wamp\www\cl_ldz_cpo\dev\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#11 {main}
+
+
+2016-10-20 14:58:47 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Sqlserver cannot be used due to a missing PHP extension or unmet dependency
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Sqlserver',
+)
+Stack Trace:
+#0 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Connection.php(108): Cake\Database\Connection->driver('Cake\\Database\\D...', Array)
+#1 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(87): Cake\Database\Connection->__construct(Array)
+#2 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'iconstruye', Array)
+#3 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(202): Cake\Core\ObjectRegistry->load('iconstruye', Array)
+#4 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php(171): Cake\Datasource\ConnectionManager::get('iconstruye')
+#5 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php(114): Cake\ORM\Locator\TableLocator->get('IcPartida')
+#6 C:\wamp\www\cl_ldz_cpo\dev\src\Shell\BudgetItemsShell.php(24): Cake\Console\Shell->loadModel('IcPartida')
+#7 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(216): App\Shell\BudgetItemsShell->initialize()
+#8 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#9 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#10 C:\wamp\www\cl_ldz_cpo\dev\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#11 {main}
+
+
+2016-10-20 14:59:29 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Sqlserver cannot be used due to a missing PHP extension or unmet dependency
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Sqlserver',
+)
+Stack Trace:
+#0 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Connection.php(108): Cake\Database\Connection->driver('Cake\\Database\\D...', Array)
+#1 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(87): Cake\Database\Connection->__construct(Array)
+#2 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'iconstruye', Array)
+#3 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(202): Cake\Core\ObjectRegistry->load('iconstruye', Array)
+#4 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php(171): Cake\Datasource\ConnectionManager::get('iconstruye')
+#5 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php(114): Cake\ORM\Locator\TableLocator->get('IcPartida')
+#6 C:\wamp\www\cl_ldz_cpo\dev\src\Shell\BudgetItemsShell.php(24): Cake\Console\Shell->loadModel('IcPartida')
+#7 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(216): App\Shell\BudgetItemsShell->initialize()
+#8 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#9 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#10 C:\wamp\www\cl_ldz_cpo\dev\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#11 {main}
+
+
+2016-10-20 14:59:39 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Sqlserver cannot be used due to a missing PHP extension or unmet dependency
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Sqlserver',
+)
+Stack Trace:
+#0 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Connection.php(108): Cake\Database\Connection->driver('Cake\\Database\\D...', Array)
+#1 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(87): Cake\Database\Connection->__construct(Array)
+#2 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'iconstruye', Array)
+#3 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(202): Cake\Core\ObjectRegistry->load('iconstruye', Array)
+#4 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php(171): Cake\Datasource\ConnectionManager::get('iconstruye')
+#5 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php(114): Cake\ORM\Locator\TableLocator->get('IcPartida')
+#6 C:\wamp\www\cl_ldz_cpo\dev\src\Shell\BudgetItemsShell.php(24): Cake\Console\Shell->loadModel('IcPartida')
+#7 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(216): App\Shell\BudgetItemsShell->initialize()
+#8 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#9 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#10 C:\wamp\www\cl_ldz_cpo\dev\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#11 {main}
+
+
+2016-10-20 15:09:51 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 La table 'softland.cwtaren' n'existe pas
+Stack Trace:
+#0 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Connection.php(272): Cake\Database\Statement\MysqlStatement->execute()
+#2 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Query.php(188): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Query.php(921): Cake\Database\Query->execute()
+#4 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(272): Cake\ORM\Query->_execute()
+#5 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Query.php(871): Cake\ORM\Query->_all()
+#6 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(288): Cake\ORM\Query->all()
+#7 C:\wamp\www\cl_ldz_cpo\dev\src\Shell\BudgetItemsShell.php(48): Cake\ORM\Query->toArray()
+#8 [internal function]: App\Shell\BudgetItemsShell->main()
+#9 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\Shell.php(439): call_user_func_array(Array, Array)
+#10 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(217): Cake\Console\Shell->runCommand(Array, true, Array)
+#11 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#12 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#13 C:\wamp\www\cl_ldz_cpo\dev\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#14 {main}
+
+
+2016-10-20 15:15:41 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 La table 'softland.cwtaren' n'existe pas
+Stack Trace:
+#0 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Connection.php(272): Cake\Database\Statement\MysqlStatement->execute()
+#2 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Query.php(188): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Query.php(921): Cake\Database\Query->execute()
+#4 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(272): Cake\ORM\Query->_execute()
+#5 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Query.php(871): Cake\ORM\Query->_all()
+#6 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(288): Cake\ORM\Query->all()
+#7 C:\wamp\www\cl_ldz_cpo\dev\src\Shell\BudgetItemsShell.php(48): Cake\ORM\Query->toArray()
+#8 [internal function]: App\Shell\BudgetItemsShell->main()
+#9 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\Shell.php(439): call_user_func_array(Array, Array)
+#10 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(217): Cake\Console\Shell->runCommand(Array, true, Array)
+#11 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#12 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#13 C:\wamp\www\cl_ldz_cpo\dev\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#14 {main}
+
+
+2016-10-20 15:22:50 Warning: Warning (2): Creating default object from empty value in [C:\wamp\www\cl_ldz_cpo\dev\src\Shell\BudgetItemsShell.php, line 200]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Shell\BudgetItemsShell::refreshItems() - APP/Shell\BudgetItemsShell.php, line 200
+App\Shell\BudgetItemsShell::main() - APP/Shell\BudgetItemsShell.php, line 54
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 439
+Cake\Console\ShellDispatcher::_dispatch() - CORE\src\Console\ShellDispatcher.php, line 217
+Cake\Console\ShellDispatcher::dispatch() - CORE\src\Console\ShellDispatcher.php, line 181
+Cake\Console\ShellDispatcher::run() - CORE\src\Console\ShellDispatcher.php, line 127
+[main] - ROOT\bin\cake.php, line 33
+
+
+
+2016-10-20 15:22:51 Warning: Warning (4096): Argument 1 passed to Cake\ORM\Table::save() must implement interface Cake\Datasource\EntityInterface, instance of stdClass given, called in C:\wamp\www\cl_ldz_cpo\dev\src\Shell\BudgetItemsShell.php on line 201 and defined in [C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Table.php, line 1370]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\ORM\Table::save() - CORE\src\ORM\Table.php, line 1370
+App\Shell\BudgetItemsShell::refreshItems() - APP/Shell\BudgetItemsShell.php, line 201
+App\Shell\BudgetItemsShell::main() - APP/Shell\BudgetItemsShell.php, line 54
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 439
+Cake\Console\ShellDispatcher::_dispatch() - CORE\src\Console\ShellDispatcher.php, line 217
+Cake\Console\ShellDispatcher::dispatch() - CORE\src\Console\ShellDispatcher.php, line 181
+Cake\Console\ShellDispatcher::run() - CORE\src\Console\ShellDispatcher.php, line 127
+[main] - ROOT\bin\cake.php, line 33
+
+
+
+2016-10-28 13:40:19 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 La table 'softland.cwtaren' n'existe pas
+Stack Trace:
+#0 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Connection.php(272): Cake\Database\Statement\MysqlStatement->execute()
+#2 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Query.php(188): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Query.php(921): Cake\Database\Query->execute()
+#4 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(272): Cake\ORM\Query->_execute()
+#5 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Query.php(871): Cake\ORM\Query->_all()
+#6 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(288): Cake\ORM\Query->all()
+#7 C:\wamp\www\cl_ldz_cpo\dev\src\Shell\BudgetItemsShell.php(49): Cake\ORM\Query->toArray()
+#8 [internal function]: App\Shell\BudgetItemsShell->main()
+#9 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\Shell.php(456): call_user_func_array(Array, Array)
+#10 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(217): Cake\Console\Shell->runCommand(Array, true, Array)
+#11 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#12 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#13 C:\wamp\www\cl_ldz_cpo\dev\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#14 {main}
+
+
+2016-11-02 10:45:29 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 La table 'softland.cwtaren' n'existe pas
+Stack Trace:
+#0 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Connection.php(272): Cake\Database\Statement\MysqlStatement->execute()
+#2 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Query.php(188): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Query.php(921): Cake\Database\Query->execute()
+#4 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(272): Cake\ORM\Query->_execute()
+#5 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Query.php(871): Cake\ORM\Query->_all()
+#6 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(288): Cake\ORM\Query->all()
+#7 C:\wamp\www\cl_ldz_cpo\dev\src\Shell\BudgetItemsShell.php(49): Cake\ORM\Query->toArray()
+#8 [internal function]: App\Shell\BudgetItemsShell->main()
+#9 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\Shell.php(456): call_user_func_array(Array, Array)
+#10 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(217): Cake\Console\Shell->runCommand(Array, true, Array)
+#11 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#12 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#13 C:\wamp\www\cl_ldz_cpo\dev\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#14 {main}
+
+
+2016-11-02 10:46:09 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 La table 'softland.cwtaren' n'existe pas
+Stack Trace:
+#0 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Connection.php(272): Cake\Database\Statement\MysqlStatement->execute()
+#2 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Query.php(188): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Query.php(921): Cake\Database\Query->execute()
+#4 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(272): Cake\ORM\Query->_execute()
+#5 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Query.php(871): Cake\ORM\Query->_all()
+#6 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(288): Cake\ORM\Query->all()
+#7 C:\wamp\www\cl_ldz_cpo\dev\src\Shell\BudgetItemsShell.php(49): Cake\ORM\Query->toArray()
+#8 [internal function]: App\Shell\BudgetItemsShell->main()
+#9 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\Shell.php(456): call_user_func_array(Array, Array)
+#10 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(217): Cake\Console\Shell->runCommand(Array, true, Array)
+#11 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#12 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#13 C:\wamp\www\cl_ldz_cpo\dev\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#14 {main}
+
+
+2016-11-02 10:46:10 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 La table 'softland.cwtaren' n'existe pas
+Stack Trace:
+#0 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Connection.php(272): Cake\Database\Statement\MysqlStatement->execute()
+#2 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Query.php(188): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Query.php(921): Cake\Database\Query->execute()
+#4 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(272): Cake\ORM\Query->_execute()
+#5 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Query.php(871): Cake\ORM\Query->_all()
+#6 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(288): Cake\ORM\Query->all()
+#7 C:\wamp\www\cl_ldz_cpo\dev\src\Shell\BudgetItemsShell.php(49): Cake\ORM\Query->toArray()
+#8 [internal function]: App\Shell\BudgetItemsShell->main()
+#9 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\Shell.php(456): call_user_func_array(Array, Array)
+#10 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(217): Cake\Console\Shell->runCommand(Array, true, Array)
+#11 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#12 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#13 C:\wamp\www\cl_ldz_cpo\dev\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#14 {main}
+
+
+2016-11-02 10:46:12 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 La table 'softland.cwtaren' n'existe pas
+Stack Trace:
+#0 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Connection.php(272): Cake\Database\Statement\MysqlStatement->execute()
+#2 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Query.php(188): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Query.php(921): Cake\Database\Query->execute()
+#4 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(272): Cake\ORM\Query->_execute()
+#5 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Query.php(871): Cake\ORM\Query->_all()
+#6 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(288): Cake\ORM\Query->all()
+#7 C:\wamp\www\cl_ldz_cpo\dev\src\Shell\BudgetItemsShell.php(49): Cake\ORM\Query->toArray()
+#8 [internal function]: App\Shell\BudgetItemsShell->main()
+#9 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\Shell.php(456): call_user_func_array(Array, Array)
+#10 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(217): Cake\Console\Shell->runCommand(Array, true, Array)
+#11 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#12 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#13 C:\wamp\www\cl_ldz_cpo\dev\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#14 {main}
+
+
+2016-11-02 10:46:48 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 La table 'softland.cwtaren' n'existe pas
+Stack Trace:
+#0 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Connection.php(272): Cake\Database\Statement\MysqlStatement->execute()
+#2 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Database\Query.php(188): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#3 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Query.php(921): Cake\Database\Query->execute()
+#4 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(272): Cake\ORM\Query->_execute()
+#5 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\ORM\Query.php(871): Cake\ORM\Query->_all()
+#6 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(288): Cake\ORM\Query->all()
+#7 C:\wamp\www\cl_ldz_cpo\dev\src\Shell\BudgetItemsShell.php(49): Cake\ORM\Query->toArray()
+#8 [internal function]: App\Shell\BudgetItemsShell->main()
+#9 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\Shell.php(456): call_user_func_array(Array, Array)
+#10 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(217): Cake\Console\Shell->runCommand(Array, true, Array)
+#11 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#12 C:\wamp\www\cl_ldz_cpo\dev\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#13 C:\wamp\www\cl_ldz_cpo\dev\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#14 {main}
+
+

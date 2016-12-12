@@ -1,0 +1,30 @@
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1366px) {
+  .app-bar .app-bar-menu > li,
+  .app-bar .app-bar-menu > li > a {
+    padding: 0 7px;
+  }
+  .input-control.file,
+  .input-control.file input[type=file] {
+    width: 470px!important;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1366px) {
+  .app-bar .app-bar-menu > li,
+  .app-bar .app-bar-menu > li > a {
+    padding: 0 10px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .page-content {
+    padding-top: 54px!important;
+  }
+}
+/*Small Devices, Tablets*/
+@media only screen and (max-width: 767px) {
+  .login .form-actions .button {
+    width: 100%;
+  }
+}
+/*Extra Small Devices, Phones*/
+/* Uber Small Devices, Phones */

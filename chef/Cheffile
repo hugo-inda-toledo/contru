@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+#^syntax detection
+site 'http://community.opscode.com/api/v1'
+
+cookbook 'apt'        , '= 2.7.0'
+cookbook 'nginx'      , '= 2.7.6'
+cookbook 'mysql'      , '= 6.0.22'
+cookbook 'php'        , '= 1.5.0'
+cookbook 'php-fpm'    , '= 0.7.4'
+cookbook 'git'        , '= 4.2.2'
+cookbook 'wkhtmltopdf',
+  :git => 'https://github.com/geedelur/chef-wkhtmltopdf'

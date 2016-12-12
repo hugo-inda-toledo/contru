@@ -1,0 +1,18 @@
+.input-control.file input[type=file] {
+  /* position: absolute; */
+  opacity: 1;
+  width: 15.0625rem;
+  height: 2.0625rem;
+}
+
+.cake-error {
+	margin-top: 73px;
+}
+
+.error-message {
+	color: red;
+}
+
+.actions {
+	width: 150px !important;
+}

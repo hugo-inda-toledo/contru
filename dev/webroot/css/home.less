@@ -1,0 +1,148 @@
+/************ Idea Uno 2013 *************/
+
+/*Rutas*/
+@img_path: '../img';
+@font_path: 'fonts';
+
+/*mixes css*/
+@white:       	#FFF;
+@black:       	#000;
+@brand:			#333;
+@darkBrand:   	darken(@brand, 5%);
+@green:			#32b34c;
+
+.transition_link(@duration:.16s, @ease:ease-in-out) {
+	-webkit-transition: all @duration @ease;
+	-moz-transition: all @duration @ease;
+	-ms-transition: all @duration @ease;
+	-o-transition: all @duration @ease;
+	transition: all @duration @ease;
+}
+
+/*Configuración de animaciones y efectos*/
+a {
+	text-decoration: none;
+	.transition_link(.2s, ease-in-out);
+	&:hover {
+		.transition_link(.3s, ease-in-out);
+		text-decoration: none;
+		opacity: .65;
+	}
+	&:focus {
+		outline: none;
+		text-decoration: none;
+		.transition_link(.3s, ease-in-out);
+	}
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	strong {
+		font-weight: 400;
+	}
+	&.white {
+		color: @white;
+		font-size: 150%;
+		margin: 0;
+		text-transform: uppercase;
+	}
+}
+p {
+	&.small-text {
+		font-size: 100%!important;
+	}
+}
+hr {
+	border-top: 1px solid #aba0a3;
+}
+::selection {
+	background: lighten(@brand, 10%);
+	color: @white;
+}
+input,
+button {
+	&.button {
+		.transition_link(.16s, ease-in-out);
+		&:hover {
+			.transition_link(.26s, ease-in-out);
+			opacity: .8;
+		}
+		&:focus {
+			outline: none;
+		}
+	}
+}
+.imgResponse {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+/**********************Main Styles**********************/
+body {
+	background: @white;
+}
+
+/*Header*/
+.brand {
+	float: left;
+	.logo {
+		margin-top: 0px;
+	}
+}
+.main-menu {
+	float: left;
+	width: auto;
+	margin-left: 15%;
+	li {
+		a {
+			font-size: 50%!important;
+			margin: 20px 15px 0;
+			padding: 5px 0;
+			&.active {
+				border-bottom: 2px solid @green;
+			}
+			&:hover {
+				opacity: .7;
+				border-bottom: 2px solid @green;
+			}
+		}
+	}
+}
+[class^="mif-"],
+[class*=" mif-"] {
+	margin-top: -5px;
+}
+
+/*Content*/
+
+
+/*Debug de pixel ratio*/
+.content-padded {
+  padding:0 15px;
+}
+.debug-content { 
+  display: none;
+  background: rgba(204, 204, 204, 0.26);
+  border-radius:4px;
+  color: @black;
+  font-size: 80%;
+  font-weight: bold;
+  margin: 5px -10px 0;
+  padding: 4px 14px;
+  text-align:center;
+  position: absolute;
+  top: 0;
+  left: 40%;
+  z-index: 100;
+  .print-mediaquery {
+    p {line-height: 1em;}
+  }
+}
+
+@import url('animate.css');
+@import url('prefixer.less');
+@import url('flexbox.less');

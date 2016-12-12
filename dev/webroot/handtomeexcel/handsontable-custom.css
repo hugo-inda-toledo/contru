@@ -1,0 +1,12 @@
+.example1 {
+    color: #000;
+    display: block;
+    font-family: Verdana, Helvetica, Arial, FreeSans, sans-serif;
+    font-size: 12px;
+    height: 322px;
+    left: 563px;
+    position: absolute;
+    top: 8px;
+    width: 222px;
+    z-index: 1060;
+  }
